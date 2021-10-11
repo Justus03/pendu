@@ -1,0 +1,5 @@
+	Le but du jeu est de déviner un mot choisi par l'ordinateur.
+	L'ordinateur choisi un mot du dictionnaire et l'affiche sous
+	forme d'étoile.Votre role est de déviner le mot en question
+	en donnant les lettres possibles qui le composent...
+	Vous disposez d'un nombre limité de coups.
