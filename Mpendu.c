@@ -2,7 +2,7 @@
 # include<stdlib.h>
 # include<string.h>
 /* ****************************** */
-# include"../headers/pendu.h"
+# include"pendu.h"
 
 int main(int argc,char *argv[])
 {
