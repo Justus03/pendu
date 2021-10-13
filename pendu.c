@@ -4,7 +4,7 @@
 # include<ctype.h>
 # include<string.h>
 /* ****************************** */
-# include"../headers/pendu.h"
+# include"pendu.h"
 
 void menu(int choix)
 {
@@ -26,7 +26,7 @@ void menu(int choix)
       break;
     case 2:
       printf("\n---> AIDE\n");
-      P_files=fopen("../files/aide.txt","r");
+      P_files=fopen("aide.txt","r");
       if(P_files)
 	{
 	  do
@@ -44,7 +44,7 @@ void menu(int choix)
       break;
     case 3:
       printf("\n---> APROPOS\n");
-      P_files=fopen("../files/apropos.txt","r");
+      P_files=fopen("apropos.txt","r");
       if(P_files)
 	{
 	  do
@@ -97,10 +97,10 @@ int wc(const char *file) //file correspond au chemin d'accès du dictionnaire
 char *ws(const int word_nbr)
 {
   FILE *P_file=NULL;
-  int i,caract=0,bool=wc("../files/dictionnaire.txt")-word_nbr,nbr_rligne=0;
+  int i,caract=0,bool=wc("dictionnaire.txt")-word_nbr,nbr_rligne=0;
   char *string=(char*)malloc(sizeof(char)*TAILLE);
 
-  P_file=fopen("../files/dictionnaire.txt","r");
+  P_file=fopen("dictionnaire.txt","r");
   if(P_file)
     {
       switch(bool)
