@@ -1,2 +1,2 @@
 # pendu
-A game where you must guest a word choosen by the machine 
+A game where you must guest a word chose by the machine 
